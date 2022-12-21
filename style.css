@@ -1,0 +1,122 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    width: 5px;             
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6));   
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 19);
+    border-radius: 20px;       
+    border: 1px solid rgb(0, 0, 19);  
+  }
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    max-width: 100%;
+    text-align: center;
+}
+footer{
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+}
+span{
+    color: aqua;
+}
+header{
+    border-bottom: lightseagreen solid 1px;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    text-align: center;
+    width: 600px;
+    margin: 10px auto;
+}
+button{
+    border: lightseagreen solid 1px;
+    background-color:transparent;
+    width: 300px;
+    height: 60px;
+    padding: auto;
+    font-size: 30px;
+    margin: 40px auto;
+    color: lightseagreen;
+}
+section{
+    border-bottom: lightseagreen solid 1px;
+    padding: 50px;
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+.banner .logo {
+    background-color: rgba(0, 0, 0, .2);
+    height: 100%;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+    
+}
+
+.logo{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 34%;
+    height: 34%;
+    margin: 70px auto;
+}
+
+.principal{
+    color: lightskyblue;
+    font-size: 35px;
+    margin: 25px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.modules-list{
+    margin: 30px auto;
+    height: 300px;
+}
+.module{
+    border: solid 2px lightseagreen;
+    width: 600px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: none;
+    margin: 30px auto;
+}
+.transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url(woman-code.png);
+    background-attachment: fixed;
+    padding: 70px;
+}
+.change{
+    font-size: 40px;
+    font-weight: bold;
+    font-weight: impact;
+    text-align: start;
+    text-shadow: 3px 2px #33a8db;
+    max-width: 450px;
+}
